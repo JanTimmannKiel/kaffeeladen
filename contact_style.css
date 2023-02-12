@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.hero-section {
+  width: 100vw;
+  height: auto;
+}
+
+.cafe_front {
+  width: 100%;
+  display: block;
+}
+
+.icon-container {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+}
+
+.hamburger {
+  float: right;
+  height: 25px;
+  width: 25px;
+  margin-top: 5px;
+}
+
+.formular {
+  width: 100vw;
+  margin: 80px 24px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cf-label {
+  font-size: x-small;
+}
+
+.cf-name {
+  width: 80vw;
+  padding: 5px 1rem 4px 0.5rem;
+  border: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  background-color: #E9E9E9;
+}
+
+.cf-mail {
+  width: 80vw;
+  padding: 5px 1rem 4px 0.5rem;
+  border: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #C4C4C4;
+}
+
+.cf-telnr {
+  width: 80vw;
+  padding: 5px 1rem 4px 0.5rem;
+  border: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #FF0000;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.cf-betreff {
+  width: 80vw;
+  padding: 5px 1rem 4px 0.5rem;
+  border: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  margin-top: 1.2rem;
+}
+
+.cf-betreff option {
+  width: 80vw;
+  padding: 5px 1rem 4px 0.5rem;
+  border: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  background-color: white;
+  color: black;
+  border-bottom: none;
+  border: 2px solid black;
+}
+
+.cf-msg {
+  width: 80vw;
+  padding: 5px 1rem 4px 0.5rem;
+  border: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  height: 50vw;
+}
+
+#check1 {
+  margin: 3rem 0px;
+  border: none;
+}
+
+.cf-btn {
+  margin-left: 50%;
+  transform: translate(-60%, 0%);
+  font-size: 1rem;
+  padding: 15px 50px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+}/*# sourceMappingURL=contact_style.css.map */

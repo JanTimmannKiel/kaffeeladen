@@ -1,0 +1,192 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\000037}}
+.hero-section {
+  width: 100vw;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000311}}
+.cafe_front {
+  width: 100%;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000315}}
+.icon-container {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000323}}
+.logo {
+  height: 35px;
+  width: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000327}}
+.hamburger {
+  float: right;
+  height: 25px;
+  width: 25px;
+  margin-top: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000333}}
+.headline1 {
+  margin-top: 60px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+  color: #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000341}}
+.landing {
+  margin-left: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000344}}
+.Gebaeck.h1 {
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000347}}
+.Gebaeck {
+  margin-left: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000349}}
+.text {
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000357}}
+#Bild2 {
+  position: static;
+  margin-left: auto;
+  display: block;
+  margin-top: 40px;
+  margin-right: 24px;
+  margin-bottom: 40px;
+  width: 60vw; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000366}}
+.head_geb {
+  margin-top: 70px;
+  margin-left: 24px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000377}}
+.geb_galerie {
+  margin-top: 40px;
+  weight: 100vw;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000382}}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90vw; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000388}}
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100vw;
+      flex-basis: 100vw;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  gap: 0.2rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\0000398}}
+.column img {
+  width: 96%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display-size: contain; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003103}}
+.maps_headline {
+  margin-top: 70px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+  color: #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003112}}
+#map1 {
+  width: 100vw; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003115}}
+.footer_mob {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  weight: 100vw;
+  background-color: black;
+  color: #ffffff;
+  padding-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003124}}
+.footer_logo {
+  display: block;
+  padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003128}}
+.footer_headline1 {
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003135}}
+.footer_subline {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 34px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003141}}
+.links {
+  margin-top: 30px;
+  background-color: black;
+  width: 40%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003147}}
+.column a {
+  background-color: black;
+  text-decoration: none;
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Desktop\/projekte\/Kaffeeladen\/cafe_style\.sass}line{font-family:\00003152}}
+.row {
+  margin-bottom: 20px; }

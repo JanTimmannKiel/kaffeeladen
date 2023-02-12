@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.hero-section {
+  width: 100vw;
+  height: auto;
+}
+
+.cafe_front {
+  width: 100%;
+  display: block;
+}
+
+.icon-container {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+}
+
+.hamburger {
+  float: right;
+  height: 25px;
+  width: 25px;
+  margin-top: 5px;
+}
+
+.headline1 {
+  margin-top: 60px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.landing {
+  margin-left: 24px;
+}
+
+.Gebaeck.h1 {
+  margin-left: 0;
+}
+
+.Gebaeck {
+  margin-left: 24px;
+}
+
+.text {
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+#Bild2 {
+  position: static;
+  margin-left: auto;
+  display: block;
+  margin-top: 40px;
+  margin-right: 24px;
+  margin-bottom: 40px;
+  width: 60vw;
+}
+
+.head_geb {
+  margin-top: 70px;
+  margin-left: 24px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.geb_galerie {
+  margin-top: 40px;
+  weight: 100vw;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100vw;
+  flex: 1;
+  gap: 0.2rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.column img {
+  width: 96%;
+  box-sizing: border-box;
+  display-size: contain;
+}
+
+.maps_headline {
+  margin-top: 70px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+  color: #000000;
+}
+
+#map1 {
+  width: 100vw;
+}
+
+.footer_mob {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  weight: 100vw;
+  background-color: black;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.footer_logo {
+  display: block;
+  padding-top: 20px;
+}
+
+.footer_headline1 {
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.footer_subline {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 34px;
+}
+
+.links {
+  margin-top: 30px;
+  background-color: black;
+  width: 40%;
+  float: left;
+}
+
+.column a {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.row {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=cafe_style.css.map */

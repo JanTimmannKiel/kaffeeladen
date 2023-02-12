@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <link rel="stylesheet" href="contact_style.css" />
+    <link rel="stylesheet" type="text/css" href="footer_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kaffeeladen Rustica</title>
+    <link
+      rel="shortcut icon"
+      href="elements/Logo.png"
+      title="ico"
+      type="x-icon"
+    />
+    <meta name="author" content="Jan Timmann" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="hero-section">
+      <div class="icon-container">
+        <img
+          class="logo"
+          src="mob_nav_elem/Vector-1 black.svg"
+          alt="logo des shops"
+        />
+        <a href="mob_nav_elem.html">
+          <img
+            class="hamburger"
+            src="mob_nav_elem/Burger Menu black.svg"
+            alt="Navigationsmenü"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- -------------------  -->
+
+    <div class="formular">
+      <h1>
+        Du hast Fragen? <br />
+        Schreib uns gern!
+      </h1>
+
+      <form
+        class="cf-form-class"
+        method="post"
+        action="contact-form-process.php"
+      >
+        <label for="Name" class="cf-label">Name*</label>
+
+          <div class="cf-input-group">
+            <input type="text" placeholder="Name" name="Name" class="cf-name" required />
+          </div>
+
+        <div class="cf-form-group">
+          <label for="Email" class="cf-label">E-Mail*</label>
+          <div class="cf-input-group">
+            <input type="email" placeholder="E-Mail" name="Email" class="cf-mail" required />
+          </div>
+
+          <label for="TelNr" class="cf-label">Telefonnummer</label>
+          <div class="cf-input-group">
+            <input type="tel" placeholder="Telefonnummer" name="telNr" class="cf-telnr" />
+          </div>
+
+          <label for="betreff" class="cf-label"></label>
+          <div class="cf-input-group">
+            <select
+              class="cf-betreff"
+              placeholder="Dein Betreff">
+              
+              <option>Fragen zur Lieferung</option>
+              <option>Fragen zum Produkt</option>
+              <option>Vertreibsfragen</option>
+              <option>einfach nur so!</option>
+            </select>
+          </div>
+
+          <div class="cf-form-group">
+            <label for="Message" class="cf-label">Deine Nachricht</label>
+            <div class="cf-input-group">
+              <textarea
+                placeholder="Was hast Du auf dem Herzen?"
+                name="Message"
+                class="cf-msg"
+                rows="6"
+                maxlength="3000"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <fieldset> 
+            <input type="checkbox" name="datenschutz" value="datenschutz" id="check1">
+            <label for="check1">Ich aktzeptiere die Datenschutzerklärung</label>
+          </fieldset>
+
+
+          <div class="cf-form-group">
+            <button
+              type="submit"
+              class="cf-btn"
+            >
+              abschicken
+            </button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer_mob">
+      <img
+        id="footer_logo_1"
+        src="mob_nav_elem/Vector-1 white.svg"
+        alt="logo des shops"
+      />
+      <p class="footer_headline1">Rustica</p>
+      <p class="footer_subline">Rösterei & Café</p>
+
+      <div class="row">
+        <p class="column1">
+          Komm uns besuchen! <br />
+          Fraunhoferstr. 13, Kiel
+        </p>
+        <p class="column2">
+          Mo – Fr 8–18 Uhr <br />
+          Sa 11–18 Uhr
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="column1">
+          <a href="impressum.html"> Impressum </a>
+          <a href="#"> Datenschutz </a>
+        </div>
+        <div class="column2">
+          <a href="dasCafe.html"> Café </a>
+          <a href="#"> Shop </a>
+          <a href="dieHerkunft.html"> Herkunft </a>
+        </div>
+      </div>
+
+      <p class="endeLeer"></p>
+    </footer>
+  </body>
+</html>

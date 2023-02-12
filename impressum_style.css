@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.hero-section {
+  width: 100vw;
+  height: auto;
+}
+
+.cafe_front {
+  width: 100%;
+  display: block;
+}
+
+.icon-container {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+}
+
+.hamburger {
+  float: right;
+  height: 25px;
+  width: 25px;
+  margin-top: 5px;
+}
+
+.landing {
+  margin: 80px 24px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+address {
+  padding-top: 20px;
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.liste {
+  padding: 3rem;
+}
+
+.liste p {
+  line-height: 2rem;
+}/*# sourceMappingURL=impressum_style.css.map */

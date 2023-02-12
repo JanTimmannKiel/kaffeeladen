@@ -1,0 +1,397 @@
+/*
+- das Bild der Kaffeetüten von den Sorten geht nicht klein???
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url(fonts/roboto-v18-latin-regular.woff2) format("woff2"),
+    url(fonts/roboto-v18-latin-regular.woff) format("woff");
+}
+*/
+
+
+background: rgba(0, 0, 0, 0.3) url(pictures/FEND-Coffee-latte-art-3.png)
+    no-repeat;
+
+
+.hero-section {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    background-image: url('../images/header_images/header_startseite.png');
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.h1 {
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.text-header {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.header-button {
+    width: 160px;
+    background: #1A1A1A;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.header-button:hover {
+    background: #3A3734;
+    cursor: pointer;
+
+}
+.header-button:active {
+    background: #D7BE9D;
+}
+.hb-container {
+    position: absolute;
+    bottom: 60px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.icon-container {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+.logo {
+    height: 35px;
+    width: 35px;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+}
+.hamburger {
+    float: right;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+
+/* ---------- Rösterei & Café----------- */
+.landing {
+  background-color: #ffffff;
+}
+
+.headline1 {
+  position: static;
+  padding-top: 40px;
+  margin-left: 24px;
+  text-align: left;
+
+  /* H2 m */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+
+  /* identical to box height, or 94% */
+  color: #000000;
+}
+
+.text {
+  position: static;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: left;
+
+  /* body text m */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* or 129% */
+  color: #000000;
+}
+
+.wo_wann {
+  /* body text m */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#Bild2 {
+  position: static;
+  margin-left: auto;
+  display: block;
+
+  margin-top: 40px;
+  margin-right: 24px;
+  margin-bottom: 40px;
+  width: 60vw;
+}
+
+#Bild3 {
+  position: static;
+  margin-top: 40px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  width: 60vw;
+}
+
+/* ---------Sorten------- */
+.sorten {
+  background-color: black;
+  width: 100vw;
+  height: 951px;
+}
+
+.headline2 {
+  /* H2 m */
+  margin: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+  /* or 94% */
+  color: #ffffff;
+}
+
+.sortenVersch {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.sorte1 {
+  width: 155px;
+  height: 277px;
+}
+
+#Bild4a {
+  width: 155;
+  height: 208px;
+  background-color: #ffffff;
+}
+
+.sortBez {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.sortPreis {
+  /* body text m */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  color: #737373;
+}
+
+.sortIcons {
+  fill: #ffffff;
+  padding-left: 3px 5px;
+  width: 5px;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+#icon1 {
+  width: 10px;
+  min-height: auto;
+  color: #ffffff;
+}
+
+#heller_button1 {
+  position: static;
+  margin-top: 20px;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+
+  font-family: "Roboto", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Herkunft --------------*/
+.herkunft {
+  width: 375px;
+  height: 322px;
+
+  background-image: url(pictures/FEND-Coffee-bags-2.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  background-position: center;
+  background-size: 100%;
+  margin-top: 0;
+}
+
+.herk_headline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.herk_text {
+  /* body text m */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.herk_link {
+  /* body text m */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  color: #ffffff;
+  text-align: center;
+}
+
+.drin_headline {
+  text-align: center;
+  /* H2 m */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+
+  text-align: center;
+  color: #000000;
+}
+
+#drin_pic_1 {
+  margin-top: 35px;
+  display: block;
+  margin: auto;
+
+  width: 214px;
+  height: 284px;
+  background-color: #ffffff;
+}
+
+.drin_icons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#drin_button {
+  display: block;
+  margin: auto;
+  width: 50%;
+
+  position: static;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+
+  font-family: "Roboto", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+#map1 {
+  display: block;
+  margin: auto;
+  width: 100vw;
+  height: auto;
+}
+
+.footer_mob {
+  background-color: black;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.footer_logo{
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+  direction: rtl;
+  flex-wrap: wrap-reverse;
+} */
